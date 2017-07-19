@@ -40,7 +40,7 @@ module.exports = (connection) => {
 
       // building PredictRequest proto message
       const msg = {
-        model_spec: { name: 'inception', signature_name: 'predict_images' },
+        model_spec: { name: 'mnist', signature_name: 'predict_images' },
         inputs: {
           images: {
             dtype: 'DT_STRING',
